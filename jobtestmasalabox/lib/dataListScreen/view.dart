@@ -68,7 +68,7 @@ class DataListView extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     ListTile(
-                      onTap: () {},
+            
                       title: Text(dish?.name ?? ""),
                       subtitle: Column(
                         mainAxisSize: MainAxisSize.min,
